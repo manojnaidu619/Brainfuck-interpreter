@@ -2,15 +2,14 @@
 @program_data = ARGF.read.to_s
 @program_space = Array.new(65536,0)   # Dealing with 2^16 data size
 @data_ptr = 0
-
-program_length = @program_data.length
+@program_length = @program_data.length
 index = 0
 
 # Function to calculate the loop length
 
 def compute_loop_length(index)
     end_index = index
-    while true
+    while index < @program_length
         break if @program_data[end_index] == ']'
         end_index += 1
     end
@@ -54,7 +53,7 @@ end
 
 # Driver segment
 
-while index < program_length
+while index < @program_length
     current_char = @program_data[index]
     if current_char == "["
         index = (compute_program(current_char, index))-1
