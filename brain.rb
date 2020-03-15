@@ -6,6 +6,8 @@
 program_length = @program_data.length
 index = 0
 
+# Function to calculate the loop length
+
 def compute_loop_length(index)
     end_index = index
     while true
@@ -14,6 +16,8 @@ def compute_loop_length(index)
     end
     return end_index
 end
+
+# Driver function
 
 def compute_program(current_char, index)
     if !current_char.nil?
@@ -27,6 +31,8 @@ def compute_program(current_char, index)
         end 
     end   
 end
+
+# Function to compute inside the loop
 
 def compute_loop(index)
     start_index = index
@@ -45,6 +51,8 @@ def compute_loop(index)
     end
     return end_index+1
 end
+
+# Driver segment
 
 while index < program_length
     current_char = @program_data[index]
