@@ -2,7 +2,7 @@
 Brainfuck interpreter built using Ruby
 
 ### Usage
-``` ruby brain.rb helloWorld.bf ```
+``` ruby brain.rb helloworld.bf ```
 
 ### Sample brainfuck program to print "Hello World!"
 ```++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.```
