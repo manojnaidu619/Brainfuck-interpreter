@@ -1,4 +1,5 @@
-[![Generic badge](https://img.shields.io/badge/PRs-welcome-success.svg)](https://github.com/manojnaidu619/Brainfuck-interpreter/pulls)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)[![Generic badge](https://img.shields.io/badge/PRs-welcome-success.svg)](https://github.com/manojnaidu619/Brainfuck-interpreter/pulls)
+
 
 # Brainfuck-interpreter
 Brainfuck interpreter built using Ruby
